@@ -1,0 +1,142 @@
+.nsstr {
+  &-h1 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76.8px;
+    letter-spacing: 0.16em;
+  }
+  &-h2 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0.14em;
+  }
+  &-h3 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 0.13em;
+  }
+  &-h4 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.12em;
+  }
+  &-h5 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+  }
+  &-h6 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+  }
+}
+
+.nsstb{
+    &-h4{
+        font-family: "Noto Sans TC";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0.12em;
+    }
+    &-text-l{
+        font-family: "Noto Sans TC";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+    }
+    &-text-m{
+        font-family: "Noto Sans TC";
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.09em;
+    }
+    &-text-s{
+        font-family: "Noto Sans TC";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.07em;
+    }
+    &-tlabel{
+        font-family: "Noto Sans TC";
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.12em;
+    }
+}
+
+.nsftb{
+      &-h1 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76.8px;
+    letter-spacing: 0.16em;
+  }
+  &-h2 {
+    font-family: "Noto Sans TC";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0.14em;
+  }
+  &-h3 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 0.13em;
+  }
+  &-h4 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.12em;
+  }
+  &-h5 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+  }
+  &-h6 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+  }
+}
+
+.cy{
+    &-h2{
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 66px;
+        letter-spacing: 0.13em;
+        font-family: serif;
+    }
+    &-h4{
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 57px;
+        letter-spacing: 0.09em;
+        font-family: serif;
+    }
+}
