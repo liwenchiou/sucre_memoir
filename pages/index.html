@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
-    <%- include('./layout/top'); -%>
-    <%- include('./layout/section1'); -%>
-    <%- include('./layout/section2'); -%>
-    <%- include('./layout/section3'); -%>
-    <%- include('./layout/section4'); -%>
-    <%- include('./layout/section5'); -%>
-    <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <script type="module">
+    import "https://font.emtech.cc/emfont.js";
+    emfont.init();
+  </script>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+  <%- include('./layout/top'); -%>
+  <%- include('./layout/section1'); -%>
+  <%- include('./layout/section2'); -%>
+  <%- include('./layout/section3'); -%>
+  <%- include('./layout/section4'); -%>
+  <%- include('./layout/section5'); -%>
+  <%- include('./layout/footer'); -%>
+
+  <script type="module" src="../main.js"></script>
+</body>
+
 </html>
