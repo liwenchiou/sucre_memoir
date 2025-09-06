@@ -1,0 +1,151 @@
+.top-swiper-item{
+    height: 1080px;
+    width: 100%;
+}
+.sm-top-swiper-item{
+    height: 768px;
+    width: 100%;
+}
+.top-swiper-content-l{
+    top: 28%;
+    left: 10%;
+    width: 450px;
+}
+.top-swiper-content-r{
+    top: 28%;
+    right: 10%;
+    width: 450px;
+}
+
+.sm-top-swiper-content{
+    top: 88px;
+}
+
+.top-swiper-item-btn{
+    border:2px solid $gray-white;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+.md-swiper-button-prev,.md-swiper-button-next{
+    width: 56px;
+    height: 56px;
+    border:1px solid $primary-1000;
+}
+.md-swiper-button-prev i,.md-swiper-button-next i{
+    // background-color: red;
+    font-size: 32px;
+    color:$primary-1000
+}
+
+.swiper-pagination-bullet {
+  background-color: $gray-white;
+// background-color: red;
+  border-radius: 6px;
+//   padding: 0 8px;
+padding: 0 4px;
+  height: 8px;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  transition: 0.5s;
+  padding: 0 12px;
+}
+
+.s5-container{
+    max-width: 1320px;
+
+    // background: url("../../images/index/Banner-scroll-1.png");
+}
+
+.feedback-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+//   background-color: #f5f5f5; /* 可依背景調整 */
+}
+
+.feedback-line {
+  width: 60px;
+  height: 1px;
+  background-color: $primary-600; /* 深棕色，與文字一致 */
+}
+
+.feedback-text {
+  color: $primary-800;
+}
+
+.s5-btn{
+    color: $primary-800;
+}
+.s5-bg{
+    background-color: #E4E2E1;
+}
+.s5-content-item-img{
+    width: 110px;
+}
+.s5-content-item-text{
+    background-color: $gray-white;
+    border-radius: 12px;
+}
+.rate i{
+    font-size: 24px;
+}
+
+.sm-rate i{
+    font-size: 18px;
+}
+
+.card-with-triangle-l,.card-with-triangle-r,.sm-card-with-triangle {
+  position: relative;
+  padding-left: 16px; // 給三角形留空間
+}
+
+.card-with-triangle-l::before {
+  content: "";
+  position: absolute;
+  left: -29px; // 根據寬度調整位置
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;   // 高度的一半
+  border-bottom: 20px solid transparent;
+  border-right: 39px solid $gray-white;   // 寬度
+}
+
+.card-with-triangle-r::after {
+  content: "";
+  position: absolute;
+  right: -28px; // 根據寬度調整位置
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;   // 高度的一半
+  border-bottom: 20px solid transparent;
+  border-left: 39px solid $gray-white;  // 改成向左指
+}
+
+.sm-card-with-triangle::before {
+  content: "";
+  position: absolute;
+  top: -20px; // 根據高度調整位置
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;   // 寬度的一半
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid $gray-white; // 高度
+}
+
+
+
+
+
