@@ -1,50 +1,54 @@
-.top-swiper-item{
-    height: 1080px;
-    width: 100%;
-}
-.sm-top-swiper-item{
+// top swiper 的高度跟寬度
+.top-swiper-item {
+  height: 1080px;
+  width: 100%;
+  &-sm {
     height: 768px;
     width: 100%;
-}
-.top-swiper-content-l{
-    top: 28%;
-    left: 10%;
-    width: 450px;
-}
-.top-swiper-content-r{
-    top: 28%;
-    right: 10%;
-    width: 450px;
+  }
 }
 
-.sm-top-swiper-content{
-    top: 88px;
+.top-swiper-content-l {
+  top: 28%;
+  left: 10%;
+  width: 450px;
+}
+.top-swiper-content-r {
+  top: 28%;
+  right: 10%;
+  width: 450px;
 }
 
-.top-swiper-item-btn{
-    border:2px solid $gray-white;
+.sm-top-swiper-content {
+  top: 88px;
+}
+
+.top-swiper-item-btn {
+  border: 2px solid $gray-white;
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
 }
-.md-swiper-button-prev,.md-swiper-button-next{
-    width: 56px;
-    height: 56px;
-    border:1px solid $primary-1000;
+.md-swiper-button-prev,
+.md-swiper-button-next {
+  width: 56px;
+  height: 56px;
+  border: 1px solid $primary-1000;
 }
-.md-swiper-button-prev i,.md-swiper-button-next i{
-    // background-color: red;
-    font-size: 32px;
-    color:$primary-1000
+.md-swiper-button-prev i,
+.md-swiper-button-next i {
+  // background-color: red;
+  font-size: 32px;
+  color: $primary-1000;
 }
 
 .swiper-pagination-bullet {
   background-color: $gray-white;
-// background-color: red;
+  // background-color: red;
   border-radius: 6px;
-//   padding: 0 8px;
-padding: 0 4px;
+  //   padding: 0 8px;
+  padding: 0 4px;
   height: 8px;
   opacity: 0.5;
 }
@@ -55,10 +59,10 @@ padding: 0 4px;
   padding: 0 12px;
 }
 
-.s5-container{
-    max-width: 1320px;
+.s5-container {
+  max-width: 1320px;
 
-    // background: url("../../images/index/Banner-scroll-1.png");
+  // background: url("../../images/index/Banner-scroll-1.png");
 }
 
 .feedback-section {
@@ -67,7 +71,7 @@ padding: 0 4px;
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem 0;
-//   background-color: #f5f5f5; /* 可依背景調整 */
+  //   background-color: #f5f5f5; /* 可依背景調整 */
 }
 
 .feedback-line {
@@ -80,28 +84,30 @@ padding: 0 4px;
   color: $primary-800;
 }
 
-.s5-btn{
-    color: $primary-800;
+.s5-btn {
+  color: $primary-800;
 }
-.s5-bg{
-    background-color: #E4E2E1;
+.s5-bg {
+  background-color: #e4e2e1;
 }
-.s5-content-item-img{
-    width: 110px;
+.s5-content-item-img {
+  width: 110px;
 }
-.s5-content-item-text{
-    background-color: $gray-white;
-    border-radius: 12px;
+.s5-content-item-text {
+  background-color: $gray-white;
+  border-radius: 12px;
 }
-.rate i{
-    font-size: 24px;
-}
-
-.sm-rate i{
-    font-size: 18px;
+.rate i {
+  font-size: 24px;
 }
 
-.card-with-triangle-l,.card-with-triangle-r,.sm-card-with-triangle {
+.sm-rate i {
+  font-size: 18px;
+}
+
+.card-with-triangle-l,
+.card-with-triangle-r,
+.sm-card-with-triangle {
   position: relative;
   padding-left: 16px; // 給三角形留空間
 }
@@ -114,9 +120,9 @@ padding: 0 4px;
   transform: translateY(-50%);
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;   // 高度的一半
+  border-top: 20px solid transparent; // 高度的一半
   border-bottom: 20px solid transparent;
-  border-right: 39px solid $gray-white;   // 寬度
+  border-right: 39px solid $gray-white; // 寬度
 }
 
 .card-with-triangle-r::after {
@@ -127,9 +133,9 @@ padding: 0 4px;
   transform: translateY(-50%);
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;   // 高度的一半
+  border-top: 20px solid transparent; // 高度的一半
   border-bottom: 20px solid transparent;
-  border-left: 39px solid $gray-white;  // 改成向左指
+  border-left: 39px solid $gray-white; // 改成向左指
 }
 
 .sm-card-with-triangle::before {
@@ -140,12 +146,7 @@ padding: 0 4px;
   transform: translateX(-50%);
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;   // 寬度的一半
+  border-left: 20px solid transparent; // 寬度的一半
   border-right: 20px solid transparent;
   border-bottom: 20px solid $gray-white; // 高度
 }
-
-
-
-
-
