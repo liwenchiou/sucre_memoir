@@ -18,7 +18,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
 ----------------------------------------*/
 body {
   // font-family: "Noto Sans TC","Noto Serif TC", Arial, sans-serif;
-  // background-color: #fff;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
   
 }
 
@@ -50,7 +51,10 @@ img, picture, video, canvas, svg {
   7. 表單元素微調
 ----------------------------------------*/
 input, button, textarea, select {
+  all: unset;
   font: inherit; /* 繼承字體 */
+  color: inherit;
+  cursor: pointer;  
 }
 
 /*----------------------------------------
