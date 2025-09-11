@@ -1,8 +1,6 @@
-// .cy-h2{
-//   min-height: 180vh;
-//   background-color: #fff;
-// }
-
+.outline{
+  outline: 1px solid red;
+}
 
 .l-header{
   position: fixed;
@@ -14,7 +12,7 @@
   z-index: 100;
 
   background-color: $gray-white;
-  background-color: rgba(249, 249, 249, 0.5);
+  background-color: rgba(249, 249, 249, 0.7);
   font-family: "Noto Sans TC", sans-serif;
   // display: none;
   @include sp{
@@ -35,7 +33,7 @@
     }
   }
   &__logo{
-    width: 276px;
+    width: 200px;
     align-items: center;
     @include tab{
       width: 192px;
@@ -50,12 +48,12 @@
     text-align: center;
     }
   .--zh{
-    font-size: 20px;
+    font-size: 18px;
     color: $primary-800;
     font-weight: 700;
     }
   .--en{
-    font-size: 16px;
+    font-size: 14px;
     color: $primary-600;
     }
   }
