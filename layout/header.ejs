@@ -1,1 +1,71 @@
-<p class="header">header</p>
+<header class="l-header py-12px">
+  <div class="l-header__container">
+    <nav class="l-header__nav d-flex justify-content-between align-items-center">
+      <ul class="d-flex">
+        <li class="me-64px md-me-32px"><a class="l-header__link" href="#"><span class="--zh">甜點專區</span><span class="--en">DESSERTS</span></a></li>
+        <li><a class="l-header__link" href="#"><span class="--zh">關於我們</span><span class="--en">ABOUT</span></a></li>
+      </ul>
+
+      <h1 class="l-header__logo"><img src="../assets/images/index/LOGO 1.svg" alt=""></h1>
+      
+
+      <div class="d-flex align-items-center">
+
+        <a class="d-inline-block me-32px l-header__link" href="#"><img src="../assets/images/icons/search.png" alt=""></a>        
+        <a class="d-inline-block me-32px l-header__link" href="#"><img src="../assets/images/icons/cart.png" alt=""></a>
+
+        <div><a class="l-header__btn d-inline-block py-12px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+<!--sp-->
+<div class="l-header-sp-fixed">
+  <div class="l-header-sp">
+
+    <div class="l-header-sp__bar py-8px px-12px">
+      <nav class="l-header-sp__bar-nav d-flex align-items-center">
+        <h1 class="l-header-sp__bar-logo"><img src="../assets/images/index/LOGO 1.svg" alt=""></h1>
+      </nav>
+    </div>  
+
+
+    <div class="l-header-sp-menu js-menu ">
+      <div class="l-header-sp__search-bar-box pt-16px">
+        <form class="l-header-sp__search-bar rounded-pill d-flex mb-40px" action="/search" method="get">
+          <label for="q" class="visually-hidden">搜尋商品</label>
+          <input id="q" name="q" class="flex-fill rounded-pill" type="search" placeholder="搜尋商品..." required/>
+          <button  class="d-inline-block py-8px  pe-20px  rounded-pill" type="submit">
+            <img src="../assets/images/icons/search.png" alt="">
+          </button>
+        </form>
+      </div>
+    
+      <ul class="">
+        <li class="mb-16px">
+          <a class="l-header-sp__link" href="#">
+            <span class="--zh">甜點專區</span><span class="--en">DESSERTS</span>
+          </a>
+        </li>
+        <li class="mb-70px">
+          <a class="l-header-sp__link" href="#">
+            <span class="--zh">關於我們</span><span class="--en">ABOUT</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="text-center pb-64px"><a class="l-header-sp__btn d-inline-block py-6px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+    
+    </div>
+    
+
+    <button class="l-header-ham-lines js-hamburger">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+</div>

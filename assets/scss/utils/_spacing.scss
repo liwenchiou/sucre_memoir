@@ -1,8 +1,7 @@
 // ----------------------------
 // 自訂 spacing px 陣列
 // ----------------------------
-$px-spacers: (4,28,60,80,32,36,40,24,8,12,16,20);
-
+$px-spacers: (0,4,6,8,12,24,28,60,80,32,36,40,64,24,8,12,16,20,52,70);
 // ----------------------------
 // 迴圈生成 padding / margin 工具
 // ----------------------------
@@ -42,3 +41,69 @@ $px-spacers: (4,28,60,80,32,36,40,24,8,12,16,20);
   .my-n#{$val}px { margin-top: -#{$val}px !important; margin-bottom: -#{$val}px !important; }
 }
 
+
+// ----------------------------
+// tab
+// ----------------------------
+$md-breakpoint: 1023px; // 
+
+@each $val in $px-spacers {
+
+  // ------------------
+  // Padding 
+  // ------------------
+  @media (max-width: $md-breakpoint) {
+    .md-p-#{$val}px { padding: #{$val}px !important; }
+    .md-pt-#{$val}px { padding-top: #{$val}px !important; }
+    .md-pb-#{$val}px { padding-bottom: #{$val}px !important; }
+    .md-ps-#{$val}px { padding-left: #{$val}px !important; }
+    .md-pe-#{$val}px { padding-right: #{$val}px !important; }
+    .md-px-#{$val}px { padding-left: #{$val}px !important; padding-right: #{$val}px !important; }
+    .md-py-#{$val}px { padding-top: #{$val}px !important; padding-bottom: #{$val}px !important; }
+
+    // ------------------
+    // Margin 
+    // ------------------
+    .md-m-#{$val}px { margin: #{$val}px !important; }
+    .md-mt-#{$val}px { margin-top: #{$val}px !important; }
+    .md-mb-#{$val}px { margin-bottom: #{$val}px !important; }
+    .md-ms-#{$val}px { margin-left: #{$val}px !important; }
+    .md-me-#{$val}px { margin-right: #{$val}px !important; }
+    .md-mx-#{$val}px { margin-left: #{$val}px !important; margin-right: #{$val}px !important; }
+    .md-my-#{$val}px { margin-top: #{$val}px !important; margin-bottom: #{$val}px !important; }
+
+  }
+}
+
+// ----------------------------
+// sp
+// ----------------------------
+$sm-breakpoint: 767px; 
+
+@each $val in $px-spacers {
+
+  // ------------------
+  // Padding
+  // ------------------
+  @media (max-width: $sm-breakpoint) {
+    .sm-p-#{$val}px { padding: #{$val}px !important; }
+    .sm-pt-#{$val}px { padding-top: #{$val}px !important; }
+    .sm-pb-#{$val}px { padding-bottom: #{$val}px !important; }
+    .sm-ps-#{$val}px { padding-left: #{$val}px !important; }
+    .sm-pe-#{$val}px { padding-right: #{$val}px !important; }
+    .sm-px-#{$val}px { padding-left: #{$val}px !important; padding-right: #{$val}px !important; }
+    .sm-py-#{$val}px { padding-top: #{$val}px !important; padding-bottom: #{$val}px !important; }
+
+    // ------------------
+    // Margin
+    // ------------------
+    .sm-m-#{$val}px { margin: #{$val}px !important; }
+    .sm-mt-#{$val}px { margin-top: #{$val}px !important; }
+    .sm-mb-#{$val}px { margin-bottom: #{$val}px !important; }
+    .sm-ms-#{$val}px { margin-left: #{$val}px !important; }
+    .sm-me-#{$val}px { margin-right: #{$val}px !important; }
+    .sm-mx-#{$val}px { margin-left: #{$val}px !important; margin-right: #{$val}px !important; }
+    .sm-my-#{$val}px { margin-top: #{$val}px !important; margin-bottom: #{$val}px !important; }
+
+  }
+}
