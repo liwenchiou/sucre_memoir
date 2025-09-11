@@ -9,8 +9,10 @@
 @import './base/reset';
 @import './base/variable';
 
+@import './utils/swiper';
 @import './utils/spacing';
 @import './utils/text';
+@import './utils/utils';
 @import './utils/mixin';
 
 //各頁面 scss 引入

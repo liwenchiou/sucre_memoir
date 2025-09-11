@@ -8,9 +8,11 @@ const swiper = new Swiper(".swiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+    // nextEl: ".swiper-button-next",
+    // prevEl: ".custom-prev",
   },
   //呈現三個
-  slidesPerView: 3,
+  slidesPerView: 1,
   // 滾動條
   scrollbar: {
     el: ".swiper-scrollbar",
@@ -25,11 +27,11 @@ const swiper = new Swiper(".swiper", {
     },
     // 768px 以上（平板）
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // 992px 以上（桌機）
     992: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
   },
 });
