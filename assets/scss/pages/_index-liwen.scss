@@ -8,7 +8,8 @@
   }
 }
 
-.top-swiper-item img,.top-swiper-item-sm img {
+.top-swiper-item img,
+.top-swiper-item-sm img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* 或 cover */
@@ -63,6 +64,39 @@
   opacity: 1;
   transition: 0.5s;
   padding: 0 12px;
+}
+
+// .top-swiper-desktop::after {
+//   content: "123AAAA";
+//   display: block; /* 或 block，視需求 */
+//   width: 100%;
+//   height:75px;
+//   background-image: url("https://github.com/liwenchiou/sucre_memoir/blob/dev/assets/images/index/Vector%20(1).png?raw=true");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   position: absolute; /* 若要定位 */
+//   top: 100;
+//   left: 0;
+//   // background-color: red;
+//   z-index: 1000;
+// }
+.top-swiper-desktop {
+  position: relative; /* 讓 ::after 的絕對定位以這個容器為基準 */
+}
+
+.top-swiper-desktop::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 75px;
+  background-image: url("https://github.com/liwenchiou/sucre_memoir/blob/dev/assets/images/index/Vector%20(1).png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;       /* ✅ 關鍵：讓圖片貼齊底部 */
+  left: 0;
+  z-index: 1000;
+  pointer-events: none; /* 可選，避免干擾互動 */
 }
 
 .s5-container {
@@ -156,4 +190,3 @@
   border-right: 20px solid transparent;
   border-bottom: 20px solid $gray-white; // 高度
 }
-
