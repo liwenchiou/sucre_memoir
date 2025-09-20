@@ -4,18 +4,16 @@
   &__container{
     max-width: 1680px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
-
   &__nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     @include sp{
       row-gap: 24px;
-    }
-    @include sp{
       flex-direction: column;
       justify-content: start;
     }
@@ -61,7 +59,7 @@
     font-weight: 700;
     @include sp{
       font-size: 16px;
-    }
+      }
     }
   }
 

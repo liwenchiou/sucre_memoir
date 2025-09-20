@@ -41,6 +41,8 @@ const top_swiper = new Swiper(".top-swiper", {
   fadeEffect: {
     crossFade: true, // true 表示交叉淡入淡出，過渡更平滑
   },
+  loop: true,                    
+  speed: 3000,  
   //間距24px
   spaceBetween: 24,
   pagination: {
@@ -59,8 +61,10 @@ const top_swiper = new Swiper(".top-swiper", {
   scrollbar: {
     el: ".swiper-scrollbar",
   },
-  autoplay: true,
-
+  autoplay: {
+    delay: 1800, 
+    disableOnInteraction: false,
+  },
   // 響應式設定（類似 Bootstrap 的斷點）
   breakpoints: {
     // 0px 以上（手機）
