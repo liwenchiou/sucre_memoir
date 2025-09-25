@@ -94,20 +94,20 @@
   position: relative; /* 讓 ::after 的絕對定位以這個容器為基準 */
 }
 
-.top-swiper-desktop::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 75px;
-  background-image: url("https://github.com/liwenchiou/sucre_memoir/blob/dev/assets/images/index/Vector-top-swiper.png?raw=true");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 0;       /* ✅ 關鍵：讓圖片貼齊底部 */
-  left: 0;
-  z-index: 1000;
-  pointer-events: none; /* 可選，避免干擾互動 */
-}
+// .top-swiper-desktop::after {
+//   content: "";
+//   display: block;
+//   width: 100%;
+//   height: 75px;
+//   background-image: url("https://github.com/liwenchiou/sucre_memoir/blob/dev/assets/images/index/Vector-top-swiper.png?raw=true");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   bottom: 0;       /* ✅ 關鍵：讓圖片貼齊底部 */
+//   left: 0;
+//   z-index: 1000;
+//   pointer-events: none; /* 可選，避免干擾互動 */
+// }
 
 .s5-container {
   max-width: 1320px;
