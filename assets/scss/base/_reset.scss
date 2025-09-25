@@ -17,10 +17,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
   3. 字體與行高
 ----------------------------------------*/
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  // font-family: "Noto Sans TC","Noto Serif TC", Arial, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  color: #212529; /* Bootstrap 文字基本色 */
-  background-color: #fff;
+  
 }
 
 /*----------------------------------------
@@ -51,7 +51,10 @@ img, picture, video, canvas, svg {
   7. 表單元素微調
 ----------------------------------------*/
 input, button, textarea, select {
+  all: unset;
   font: inherit; /* 繼承字體 */
+  color: inherit;
+  cursor: pointer;  
 }
 
 /*----------------------------------------
@@ -64,7 +67,7 @@ input, button, textarea, select {
 /*----------------------------------------
   9. 可選：強化可讀性
 ----------------------------------------*/
-p {
-  margin-bottom: 1rem;
-}
+// p {
+//   margin-bottom: 1rem;
+// }
 

@@ -1,0 +1,62 @@
+// 背景顏色
+.bg-gray-100 {
+  background-color: $gray-100;
+}
+.bg-primary-100 {
+  background-color: $primary-100;
+}
+
+// 互動效果
+.rotate:hover {
+  opacity: 0.5;
+  transform: rotate(-5deg);
+}
+.opacity:hover {
+  opacity: 0.5;
+}
+
+// 桌機斷點
+@media (min-width: 992px) {
+  .card-title {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: 0.13em;
+  }
+  .heading {
+    &-line {
+      width: 100%;
+    }
+    &-text {
+      font-family: "Noto Serif TC";
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 76.8px;
+      letter-spacing: 0.16em;
+    }
+  }
+  .nsftb-lg-h1 {
+    font-family: "Noto Serif TC";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76.8px;
+    letter-spacing: 0.16em;
+  }
+  .nsstr-lg-h2 {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0.14em;
+  }
+}
+
+@media (max-width: 768px) {
+  .border-y-dashed {
+    border-top: 2px dashed #B79E8B;
+    border-bottom: 2px dashed #B79E8B;
+    border-left: transparent !important;
+    border-right: transparent !important;
+  }
+}
