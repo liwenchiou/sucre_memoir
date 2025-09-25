@@ -1,4 +1,3 @@
-console.log("ham 已成功載入！");
 
 window.addEventListener("DOMContentLoaded", () => {
   const hamButton = document.querySelector(".js-hamburger");
@@ -61,7 +60,7 @@ function showHeader() {
   const header = document.querySelector('.l-header');
   
   window.addEventListener('scroll', () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 170) {
       header.classList.add('show');
     } 
     else {
