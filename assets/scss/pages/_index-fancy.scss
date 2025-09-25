@@ -8,6 +8,8 @@
 }
 
 .s2-container{
+    background-image: url("../assets/images/index/s5bg.jpg");
+    background-size: cover;    
     display: flex;
     flex-direction: column; /* 由 row 改 column */
     align-items: center;    /* 水平置中 */
@@ -178,13 +180,13 @@
     );
     height:  clamp(
         0px, 
-        calc(467 * 100vw / 1960), 
-        467px
+        calc(550 * 100vw / 1960), 
+        550px
     );
     margin-left: clamp(
         0px, 
-        calc(52 * 100vw / 1960), 
-        52px
+        calc(40 * 100vw / 1960), 
+        40px
     );
     margin-right: clamp(
         0px, 
@@ -193,7 +195,8 @@
     );
     max-width: 1296px;;
     margin-top: 80px;    /* 距離頂部 80px */
-    overflow: hidden;   /* 水平隱藏超出部分 */
+    margin-bottom: 80px;    /* 距離頂部 80px */
+    overflow:  hidden;   /* 水平隱藏超出部分 */
 }
 
 .s2-slide {
@@ -230,6 +233,7 @@
         416px
     );
     height: auto;
+    
 }
 
 .s2-text{
@@ -251,17 +255,64 @@
     margin-top: 102.5px;
     margin-bottom: 74.5px;
     position: relative;
+    display: flex;                 /* 可選：如果想要文字自動撐滿 */
+    flex-direction: column;       /* 讓內容垂直排列 */
+   /* 如果想要標題/內文在上，more 在下 */
     white-space: normal;   /* 允許換行 */
 }
 
+.s2-text h2{
+font-family: "Noto Serif TC", sans-serif;
+    color: $primary-1000;
+    font-weight: 700;
+    font-style: bold;
+    font-size: clamp(
+        18px, 
+        calc(28*100vw/1960), 
+        28px
+    );
+    line-height: clamp(24px, 5vw, 34px);
+    letter-spacing: 0.13em;
+
+}
+.s2-text p{
+    font-family: "Noto Serif TC", sans-serif;
+    color: $primary-800;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(
+        12px, 
+        calc(20*100vw/1960), 
+        20px
+    );
+    line-height: clamp(24px, 5vw, 30px);
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+.s2-img{
+    position: static; /* 或直接刪除 position 屬性 */
+    width: clamp(
+        0px, 
+        calc(624 * 100vw / 1960),
+        624px
+    );
+    margin-left: clamp(
+        0px, 
+        calc(450 * 100vw / 1960), 
+        450px
+    );
+    bottom: clamp(
+        0px, 
+        calc(0.0763 * (1960px - 100vw)), 
+        50px
+    );
+    transform: rotate(-2.66deg);
+}
 .s2-carousel img{
     position: absolute;
 }
 
-.s2-arrow{
-    max-width: 56px;
-    cursor: pointer;
-}
+
 .s2-prev { left: 0; }
 .s2-next { right: 0; }
 
@@ -289,33 +340,24 @@
     pointer-events: none;
 }
 
-.s2-text h2{
-font-family: "Noto Serif TC", sans-serif;
-    color: $primary-1000;
-    font-weight: 700;
-    font-style: bold;
-    font-size: clamp(
-        18px, 
-        calc(28*100vw/1960), 
-        28px
-    );
-    line-height: clamp(24px, 5vw, 34px);
-    letter-spacing: 0.13em;
 
-}
-.s2-text p{
+
+.s2-more{
+    display:block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 100%;                   /* 占滿 .s2-text 的寬度 */
+    margin: 0;                     /* 取消原本的 margin 推位 */
+    text-align: right;             /* 文字靠右 */
+    color: $primary-800;
     font-family: "Noto Serif TC", sans-serif;
-    color: $primary-1000;
-    font-weight: 400;
-    font-style: normal;
-    font-size: clamp(
-        18px, 
-        calc(20*100vw/1960), 
-        20px
-    );
-    line-height: clamp(24px, 5vw, 30px);
-    letter-spacing: 0.1em;
-    margin-top: 20px;
+ 
+}
+
+.mobile-break2{
+    display: none;
 }
 
 .mt-76 {
@@ -374,6 +416,27 @@ font-family: "Noto Serif TC", sans-serif;
         margin-left: 50px;
         width: 280px
    }
+
+/*- - - - - SECTION2- - - - - */
+    /*.s2-slide__top {
+        width: clamp(
+            28px, 
+            calc(112*100vw/1305), 
+            112px
+        );
+    }
+
+    .s2-slide__page {
+        width: clamp(
+            28px, 
+            calc(200*100vw/1305), 
+            200px
+        );
+        height: auto;
+    }*/
+    .s2-img{
+        display: none;
+    }
 }
 
 @media (max-width: 990px) {
@@ -428,4 +491,109 @@ font-family: "Noto Serif TC", sans-serif;
     .img-group {
         display: none;
     }
+
+/*- - - - - SECTION2- - - - - */
+    .product-section {
+        margin-top: 40px;
+    }   
+    .product-line {
+        width: 68px;
+    }
+
+    .product-text {
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: 0.14em;
+    }
+
+    .s2-center{
+        height: 603.44px;
+        width:351px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .s2-carousel{
+        margin: 0;
+        height: auto;
+        width: auto;
+        touch-action: pan-y;   /* 🔑 允許橫向手勢，不要被垂直滾動吃掉 */
+    }
+
+    .s2-slide {
+        position: relative;
+        width: 351px; /* 大於所有絕對定位圖片的高度 */
+        display: flex;
+        flex-direction: column;     /* 由橫排改成直排 */
+        align-items: center;        /* 水平置中 */
+        text-align: center;         /* 文字置中 */
+    
+    }
+
+    .s2-track{
+        width: auto;
+        height: auto;
+        display: flex;
+        will-change: transform; 
+    }
+
+    .s2-slide__top {
+        position: absolute;
+        width: 141px;
+        height: 127.34px;
+        top: 0px;
+        left: 0px;
+        margin-left: 0px;  /* 取消桌機版的推移 */
+    }
+
+    .s2-slide__page {
+        position: absolute;
+        width: 351px;
+        height: 248px;
+        top:0px;
+        left: 0px;
+    }
+
+    .s2-text{
+        width: 100%;
+        max-width: 351px;          /* 限制最大寬度 */
+        margin-top: 287.44px;
+        margin-left: 0px;
+        height: 276px;               /* 高度自動撐開 */
+        white-space: normal;       /* 確保可換行 */
+    }
+
+    .s2-img{
+        display: none;
+    }
+
+    .s2-prev,
+    .s2-next {
+        display: none;
+    }
+
+    .s2-text h2,
+    .s2-text p {
+        text-align: left;
+    }
+
+    .s2-text h2{
+        font-size: 24px;
+        
+        line-height: 28.8px;
+        letter-spacing: 0.12em;
+
+    }
+
+    .s2-text p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.09em;
+    }
+
+    .mobile-break2 {
+        display: block;
+    }
+
 }
