@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+ 
+<main class="p-dessert py-80px">
+  <div class="container">
+    <ul class="c-breadcrumb">
+      <li class="c-breadcrumb__item"><a href="/">首頁</a></li>
+      <li class="c-breadcrumb__item">商品列表</li>
+    </ul>
+
+
+     <div class="p-dessert__search-container my-40px">
+      <input 
+          type="text" 
+          class="p-dessert__search-input" 
+          placeholder="搜尋甜點..."
+      >
+      <button class="p-dessert__search-button">搜尋</button>
+    </div>
+
+    <div class="p-dessert__filter-buttons mb-20px">
+      <button class="p-dessert__filter-btn active" data-category="all"><span><img src="/assets/images/desserts/icon/dessert-category.svg" alt="全部甜點"></span><span>全部甜點</span></button>
+      <button class="p-dessert__filter-btn" data-category="limited"><span><img src="/assets/images/desserts/icon/dessert-category_01.svg" alt="期間限定"></span><span>期間限定</span></button>
+      <button class="p-dessert__filter-btn" data-category="cake"><span><img src="/assets/images/desserts/icon/dessert-category_02.svg" alt="蛋糕"></span><span>蛋糕</span></button>
+      <button class="p-dessert__filter-btn" data-category="cookie"><span><img src="/assets/images/desserts/icon/dessert-category_03.svg" alt="餅乾"></span><span>餅乾</span></button>
+      <button class="p-dessert__filter-btn" data-category="pie"><span><img src="/assets/images/desserts/icon/dessert-category_04.svg" alt="派"></span><span>派</span></button>
+
+    </div>
+
+    <div class="p-dessert-cards">
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <img src="/assets/images/desserts/dessert_01.png" alt="">
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">抹茶雲端Matcha Cloud Cake</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">560</span>
+            </div>
+          </div>
+          
+          <button class="p-dessert__add-btn" data-cart=""><span><img src="/assets/images/desserts/icon/cart.svg" alt="加入購物車"></span><span>加入購物車</span></button>
+        </a>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <img src="/assets/images/desserts/dessert_02.png" alt="">
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">深夜可可Midnight Cocoa</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">450</span>
+            </div>
+          </div>
+          
+          <button class="p-dessert__add-btn" data-cart=""><span><img src="/assets/images/desserts/icon/cart.svg" alt="加入購物車"></span><span>加入購物車</span></button>
+        </a>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <img src="/assets/images/desserts/dessert_03.png" alt="">
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">夏日檸光Lemon Light</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">480</span>
+            </div>
+          </div>
+          
+          <button class="p-dessert__add-btn" data-cart=""><span><img src="/assets/images/desserts/icon/cart.svg" alt="加入購物車"></span><span>加入購物車</span></button>
+        </a>  
+      </div>
+
+    </div>
+
+  </div>
+  
+
+</main>
+
+
+  <%- include('./layout/footer'); -%>
+
+  <script type="module" src="../main.js"></script>
+    <script type="module" src="../assets/js/components/swiper.js"></script>
+    <script type="module" src="../assets/js/components/section2.js"></script>
+</body>
+
+</html>
