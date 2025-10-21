@@ -54,8 +54,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
 //
 
-
-
 function showHeader() {
   const header = document.querySelector('.l-header');
   
@@ -69,4 +67,15 @@ function showHeader() {
   });
 }
 
-showHeader();
+
+if (window.location.pathname.endsWith('index.html') || 
+    window.location.pathname === '/sucre_memoir/' ||
+    window.location.pathname === '/sucre_memoir') {
+
+    showHeader();
+  } else {
+    const header = document.querySelector('.l-header');
+    if (header) {
+      header.classList.add('show');
+    }
+  }
