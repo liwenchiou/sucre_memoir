@@ -21,10 +21,22 @@
   <%- include('./layout/header'); -%>
  
 <main class="p-dessert pt-160px pb-80px sm-pt-120px sm-pb-60px">
+
+  <div class="notification" id="notification">
+    <div class="row">
+      <div class="notification-content">
+          <span class="notification-text">商品成功加入購物車！</span>
+          <a class="notification-link" href="">前往購物車查看</a>
+      </div>
+      <button class="close-btn" id="closeBtn" aria-label="關閉">×</button>
+    </div>  
+  </div>
+
   <div class="container">
+
     <ul class="c-breadcrumb">
       <li class="c-breadcrumb__item"><a href="/">首頁</a></li>
-      <li class="c-breadcrumb__item">商品列表</li>
+      <li class="c-breadcrumb__item">甜點專區</li>
     </ul>
 
 

@@ -1,4 +1,3 @@
-
 .p-dessert{
   background-color: #F2F2F2;
   &.container{
@@ -7,6 +6,101 @@
     padding-right: 12px;
   }
 }
+
+/*========
+ 顯示訊息
+=========*/
+
+ .notification {
+    background: $primary-600;
+    color: $gray-white;
+    padding: 12px 20px;
+    display: none;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    animation: slideDown 0.3s ease-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); 
+    .row{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1320px;
+      padding-right: 12px;
+      padding-left: 12px;
+      margin: 0 auto;              
+    }
+    &.show{
+      display: block;
+    }
+}
+
+.notification-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+}
+
+.notification-link {
+  font-size: 13px;
+  border-bottom: 1px solid $gray-white;
+  @include sp{
+    display: none;
+  }
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: $gray-white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+}
+
+  .close-btn:hover {
+      opacity: 0.8;
+  }
+
+  @keyframes slideDown {
+      from {
+          transform: translateY(-100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes slideUp {
+      from {
+          transform: translateY(0);
+          opacity: 1;
+      }
+      to {
+          transform: translateY(-100%);
+          opacity: 0;
+      }
+  }
+
+  .notification.hiding {
+      animation: slideUp 0.3s ease-out;
+  }
+
+
+
 .c-breadcrumb{
   position: relative;
   display: flex;
@@ -117,11 +211,11 @@
     font-weight: 700;  
     border-bottom: 2px solid $gray-200 ;
     color: $gray-400;
-  }
+}
   &__filter-btn.active {
     border-bottom: 2px solid $primary-600 ;
     color: $gray-600;
-  }
+}
 }
 
 /*===========
