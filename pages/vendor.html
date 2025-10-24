@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商家頁｜甜點店商平台</title>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+    <main class="bg-gray-white">
+        <section class="py-80px py-sm-60px">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-40px">
+                        <li class="breadcrumb-item text-gray-600"><a href="index">首頁</a></li>
+                        <li class="breadcrumb-item text-gray-600"><a href="#">精選商店</a></li>
+                        <li class="breadcrumb-item active text-gray-600"><span class="fw-bold">Daily Crumble Pie</span>
+                        </li>
+                    </ol>
+                </nav>
+                <div class="text-section d-flex mb-32px">
+                    <div class="arrow"><img src="../assets/images/icons/polygon-2.png" alt=""></div>
+                    <div class="title py-2 px-12px bg-primary-200">
+                        <h2 class="ff-NSTC fw-bold fs-3 lh-336 ls-13 text-gray-800">關於店家</h2>
+                    </div>
+                </div>
+                <div class="text-center ls-10 fw-bold text-primary-800">
+                    <img src="../assets/images/index/vendor-item-img.png" alt="" class="d-block mx-auto mb-8px">
+                    <p class="mb-12px ff-NSTC lh-30">「讓每​一​天​都​有​值​得​期待​的​甜點​時光。」<br>​我​們​是​一​家​專注​於​手工​水果派​的​甜點店。​</p>
+                    <p class="mb-32px ff-NSTC lh-30">
+                        派​皮層層​酥脆、​內餡​選用​當季​新​鮮​水果​與天然​食材，<br>​每​一​塊​都​是​溫暖手​感與​細緻​風味​的​結合。<br>​無論​是​陽光​午後​的​咖啡​時光、​加班​夜裡​的​小確幸，​<br>還​是​節日裡​的​一​抹​驚喜，​我​們​的​派，​都​希望​陪​你​一起​分享。​
+                    </p>
+                    <button type="button" class="btn rounded-pill l-footer__btn py-12px px-40px">立即品嘗</button>
+                </div>
+            </div>
+        </section>
+        <section class="py-80px py-sm-60px bg-img">
+            <div class="container">
+                <div class="text-section d-flex mb-32px">
+                    <div class="arrow"><img src="../assets/images/icons/polygon-2.png" alt=""></div>
+                    <div class="title py-2 px-12px bg-primary-200">
+                        <h2 class="ff-NSTC fw-bold fs-3 lh-336 ls-13 text-gray-800">製作過程</h2>
+                    </div>
+                </div>
+                <div class="d-block d-lg-flex justify-content-center align-items-center position-relative mb-40px">
+                    <img class="z-index-2" src="/assets/images/index/vendor-story-photo.png" alt="">
+                    <img class="d-none d-lg-block position-absolute pos-1 z-index-1"
+                        src="/assets/images/index/vendor-vector.png" alt="">
+                    <p
+                        class="ps-40px px-sm-0px ff-NSTC fw-bold fs-5 fs-sm-16px lh-30 ls-10 text-primary-800 text-sm-center ps-sm-40px">
+                        以天然的奶油與少量砂糖製成手工派皮<br>反覆折疊醒麵，讓烘焙後呈現精緻層次<br>酥而不油，香而不膩</p>
+                </div>
+                <div
+                    class="d-block d-lg-flex justify-content-center align-items-center position-relative flex-row-reverse mb-40px">
+                    <img class="z-index-2" src="/assets/images/index/vendor-story-photo1.png" alt="">
+                    <img class="d-none d-lg-block position-absolute pos-2 z-index-1"
+                        src="/assets/images/index/vendor-vector.png" alt="">
+                    <p
+                        class="pe-40px px-sm-0px ff-NSTC fw-bold fs-5 fs-sm-16px lh-30 ls-10 text-primary-800 pe-sm-40px text-sm-center">
+                        依照時令選用當季水果<br>低糖熬煮，不添加人工香精和防腐劑<br>每一口都是水果本身的真實風味</p>
+                </div>
+                <div class="d-block d-lg-flex justify-content-center align-items-center position-relative mb-40px">
+                    <img class="z-index-2" src="/assets/images/index/vendor-story-photo2.png" alt="">
+                    <img class="d-none d-lg-block position-absolute pos-1 z-index-1"
+                        src="/assets/images/index/vendor-vector.png" alt="">
+                    <div class="d-flex flex-column">
+                        <p
+                            class="ps-40px px-sm-0px ff-NSTC fw-bold fs-5 fs-sm-16px lh-30 ls-10 text-primary-800 mb-32px text-sm-center">
+                            填餡後手工鋪上酥碎，入火慢烤至金黃酥脆<br>全程當天現做、當天出爐<br>保留最佳口感與香氣</p>
+                        <button type="button"
+                            class="btn rounded-pill l-footer__btn py-12px px-40px align-self-center z-index-2">立即品嘗</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-80px py-sm-60px">
+            <div class="container position-relative">
+                <div class="text-section d-flex mb-32px">
+                    <div class="arrow"><img src="../assets/images/icons/polygon-2.png" alt=""></div>
+                    <div class="title py-2 px-12px bg-primary-200">
+                        <h2 class="ff-NSTC fw-bold fs-3 lh-336 ls-13 text-gray-800">里程碑</h2>
+                    </div>
+                </div>
+                <div class="d-block d-md-flex justify-content-around">
+                    <div
+                        class="milestone-box d-flex flex-md-column align-items-start align-items-md-center flex-row-reverse mb-sm-52px">
+                        <p class="text-md-center text-primary-800 lh-24 ls-9 ms-sm-20px">正式成立 Daily Crumble Pie
+                            品牌，設計首款品牌貼紙與包裝。<br>推出經典款「肉桂蘋果酥碎派」，成為熱賣招牌。</p>
+                        <button class="btn l-footer__btn mt-20px mt-sm-0px d-md-none d-block z-index-2">2022</button>
+                    </div>
+                    <div
+                        class="milestone-box d-flex flex-md-column align-items-start align-items-md-center flex-row-reverse mb-sm-52px">
+                        <p class="text-md-center text-primary-800 lh-24 ls-9 ms-sm-20px">搬進第一間甜點工作室，每週限量出爐派 50
+                            份。<br>開始推出「月亮盒」季節限定甜點禮盒，累積超過 300 位回購客。</p>
+                        <button class="btn l-footer__btn mt-20px mt-sm-0px d-md-none d-block z-index-2">2023</button>
+                    </div>
+                    <div
+                        class="milestone-box d-flex flex-md-column align-items-start align-items-md-center flex-row-reverse mb-sm-52px">
+                        <p class="text-md-center text-primary-800 lh-24 ls-9 ms-sm-20px">
+                            開始舉辦甜點工作坊，分享手作派皮的溫度。<br>上架「白桃伯爵酥碎派」、「檸檬花香奶酥派」等創新口味。</p>
+                        <button class="btn l-footer__btn mt-20px mt-sm-0px d-md-none d-block z-index-2">2024</button>
+                    </div>
+                    <div
+                        class="milestone-box d-flex flex-md-column align-items-start align-items-md-center flex-row-reverse mb-sm-52px">
+                        <p class="text-md-center text-primary-800 lh-24 ls-9 mt-5 mt-sm-0px ms-sm-20px">
+                            建立官網，開放線上訂購與宅配，甜點走出廚房，進入更多人的生活。</p>
+                        <button class="btn l-footer__btn mt-20px mt-sm-0px d-md-none d-block z-index-2">現在</button>
+                    </div>
+                    <!-- 時間線 垂直線 <手機版>  -->
+                    <img class="d-md-none d-block position-absolute vertical-line-pos z-index-1"
+                        src="/assets/images/index/vendor-vertical-line.png" alt="">
+                </div>
+                
+                <div class="timeline position-relative m-4 d-md-block d-none">
+                    <!-- 時間線 水平線 <桌面版>  -->
+                    <div class="timeline-line"></div> 
+                    <!-- 按鈕 <桌面版>  -->
+                    <button class="btn l-footer__btn mt-20px mt-sm-0px position-absolute btn-pos-1">2022</button>
+                    <button class="btn l-footer__btn mt-20px mt-sm-0px position-absolute btn-pos-2">2023</button>
+                    <button class="btn l-footer__btn mt-20px mt-sm-0px position-absolute btn-pos-3">2024</button>
+                    <button class="btn l-footer__btn mt-20px mt-sm-0px position-absolute btn-pos-4">現在</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+        <script type="module" src="../main.js"></script>
+        <script type="module" src="../assets/js/components/swiper.js"></script>
+        <script type="module" src="../assets/js/components/section2.js"></script>
+</body>
+
+</html>
