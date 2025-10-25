@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <script type="module" crossorigin src="/sucre_memoir/assets/main-CGQ-csf1.js"></script>
+  <link rel="stylesheet" crossorigin href="/sucre_memoir/assets/main-BDPY6Amm.css">
+</head>
+
+<body>
+  <header class="l-header py-4px">
+  <div class="l-header__container">
+    <nav class="l-header__nav d-flex justify-content-between align-items-center">
+      <ul class="d-flex">
+        <li class="me-64px md-me-32px"><a class="l-header__link" href="../pages/desserts.html"><span class="--zh">甜點專區</span><span class="--en">DESSERTS</span></a></li>
+        <li><a class="l-header__link" href="#"><span class="--zh">關於我們</span><span class="--en">ABOUT</span></a></li>
+      </ul>
+
+      <h1 class="l-header__logo"><img src="/sucre_memoir/assets/LOGO%201-BW_bELAv.svg" alt=""></h1>
+      
+
+      <div class="d-flex align-items-center">
+
+        <a class="d-inline-block me-32px l-header__link" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGlSURBVHgB7VTdbcJADL4L4j0jXCdoikDirWECGKEbQCeATNCyQbtBmSA8IgFqNmhGQIgn8tfPwZEgTe6iqrxUfNJx5uLzZ/tsC3GDAVL3sdvtutiGaZqOpJSKjwNa7XbbW61WofgNgeu69n6/n8LoRHtZytc4jr0gCHZ1OlaV8cPh4LPxHXYPa7DdbiUty7IecP5OulmWTVqtlu84jl3rRPmg0+m8sPEwSZIBvAurLsKoIuMQFUWy2WyejQT9fl9FUfRFMozf1RkvkXxCtClKkCzLOhcpgvEpi28m4wTSgeE5yUjXqErnggDKTn5oWXPRHEveh0YCeJETrNfrQDTEWVqUkeAaKBOE9MMN1gi9Xi+PGukNmhAseHdFQ6DLx7QjvWYCePHBymMqWWEA6zyRjLL2jAT8YFRBNkrW15Fwz/j8t7asf3QytT13qFNcprItKoveB2l55G4vRkSI4TeoGn6Vw45JZhDHQg+Klupf1ZFoxzWPghm8vS96RJwqbUHvRSk9n0lVJFqCptCR/Emj0QPT5BWn6NTxeByJa4AiQRFMxL/CN6ecvW8MaiHkAAAAAElFTkSuQmCC" alt=""></a>        
+        <a class="d-inline-block me-32px l-header__link" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEJSURBVHgB7ZUxDoIwFIYfKomjrky4OWJYOIZH0c1NVyfjCQw38AiOLERuABNzd0LwLylJUzQtqIOGL3nw+tq+vw9oIfp1LJNBQRC4RVFc4HqwGexq2/Y2iqJMN1crIJLfRWIZBpGVTmREGpD8JJKHZVnOYQvu85ioit4SAGt+QeJDkiQMlsHfiD7vEwI1PLHkM+HOdPNa78D3/RQ3l/qRxXG8kAPPKnCpP64amLwaiZXU1aGiSm43qPGmbSwgkXWMdxNQn6kurmL8FfVlEBgEviNQH2T8P0CGSGOZ2tfaaJZlnauq2uOsT7H9yQSMbdxQ7RurgTzPb47jzOEuYVMyg2FhR+zuHf0dD3LfZXZRXrTIAAAAAElFTkSuQmCC" alt=""></a>
+
+        <div><a class="l-header__btn d-inline-block py-12px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+<!--sp-->
+<div class="l-header-sp-fixed">
+  <div class="l-header-sp">
+
+    <div class="l-header-sp__bar py-8px px-12px">
+      <nav class="l-header-sp__bar-nav d-flex align-items-center">
+        <h1 class="l-header-sp__bar-logo"><img src="/sucre_memoir/assets/LOGO%201-BW_bELAv.svg" alt=""></h1>
+      </nav>
+    </div>  
+
+
+    <div class="l-header-sp-menu js-menu ">
+      <div class="l-header-sp__search-bar-box pt-16px">
+        <form class="l-header-sp__search-bar rounded-pill d-flex mb-40px" action="/search" method="get">
+          <label for="q" class="visually-hidden">搜尋商品</label>
+          <input id="q" name="q" class="flex-fill rounded-pill" type="search" placeholder="搜尋商品..." required/>
+          <button  class="d-inline-block py-8px  pe-20px  rounded-pill" type="submit">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGlSURBVHgB7VTdbcJADL4L4j0jXCdoikDirWECGKEbQCeATNCyQbtBmSA8IgFqNmhGQIgn8tfPwZEgTe6iqrxUfNJx5uLzZ/tsC3GDAVL3sdvtutiGaZqOpJSKjwNa7XbbW61WofgNgeu69n6/n8LoRHtZytc4jr0gCHZ1OlaV8cPh4LPxHXYPa7DdbiUty7IecP5OulmWTVqtlu84jl3rRPmg0+m8sPEwSZIBvAurLsKoIuMQFUWy2WyejQT9fl9FUfRFMozf1RkvkXxCtClKkCzLOhcpgvEpi28m4wTSgeE5yUjXqErnggDKTn5oWXPRHEveh0YCeJETrNfrQDTEWVqUkeAaKBOE9MMN1gi9Xi+PGukNmhAseHdFQ6DLx7QjvWYCePHBymMqWWEA6zyRjLL2jAT8YFRBNkrW15Fwz/j8t7asf3QytT13qFNcprItKoveB2l55G4vRkSI4TeoGn6Vw45JZhDHQg+Klupf1ZFoxzWPghm8vS96RJwqbUHvRSk9n0lVJFqCptCR/Emj0QPT5BWn6NTxeByJa4AiQRFMxL/CN6ecvW8MaiHkAAAAAElFTkSuQmCC" alt="">
+          </button>
+        </form>
+      </div>
+    
+      <ul class="">
+        <li class="mb-16px">
+          <a class="l-header-sp__link" href="../pages/desserts.html">
+            <span class="--zh">甜點專區</span><span class="--en">DESSERTS</span>
+          </a>
+        </li>
+        <li class="mb-70px">
+          <a class="l-header-sp__link" href="#">
+            <span class="--zh">關於我們</span><span class="--en">ABOUT</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="text-center pb-64px"><a class="l-header-sp__btn d-inline-block py-6px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+    
+    </div>
+    
+
+    <button class="l-header-ham-lines js-hamburger">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+</div> 
+<main class="p-dessert pt-160px pb-80px sm-pt-120px sm-pb-60px">
+
+  <div class="notification" id="notification">
+    <div class="row">
+      <div class="notification-content">
+          <span class="notification-text">商品成功加入購物車！</span>
+          <a class="notification-link" href="">前往購物車查看</a>
+      </div>
+      <button class="close-btn" id="closeBtn" aria-label="關閉">×</button>
+    </div>  
+  </div>
+
+  <div class="container">
+
+    <ul class="c-breadcrumb">
+      <li class="c-breadcrumb__item"><a href="/">首頁</a></li>
+      <li class="c-breadcrumb__item">甜點專區</li>
+    </ul>
+
+
+     <div class="p-dessert__search-container my-40px">
+      <input 
+        type="text" 
+        class="p-dessert__search-input" 
+        placeholder="搜尋甜點..."
+      >
+      <button class="p-dessert__search-button">搜尋</button>
+    </div>
+
+    <div class="p-dessert__filter-buttons mb-52px">
+      <button class="p-dessert__filter-btn active" data-category="all"><span><img src="/sucre_memoir/assets/dessert-category-Ce5UMWsz.svg" alt="全部甜點"></span><span>全部甜點</span></button>
+      <button class="p-dessert__filter-btn" data-category="limited"><span><img src="/sucre_memoir/assets/dessert-category_01-CZXTFABK.svg" alt="期間限定"></span><span>期間限定</span></button>
+      <button class="p-dessert__filter-btn" data-category="cake"><span><img src="/sucre_memoir/assets/dessert-category_02-BXoNOKsC.svg" alt="蛋糕"></span><span>蛋糕</span></button>
+      <button class="p-dessert__filter-btn" data-category="cookie"><span><img src="/sucre_memoir/assets/dessert-category_03-C06vFJkq.svg" alt="餅乾"></span><span>餅乾</span></button>
+      <button class="p-dessert__filter-btn" data-category="pie"><span><img src="/sucre_memoir/assets/dessert-category_04-S9L31Zw-.svg" alt="派"></span><span>派</span></button>
+
+    </div>
+
+    <div class="p-dessert-dropdown-sp">
+      <div class="p-dessert__dropdown-container" id="dropdown-container">
+        <div class="p-dessert__dropdown-header" id="dropdownHeader">
+          <span id="selectedText">全部甜點</span>
+          <span class="p-dessert__arrow" id="arrow"></span>
+        </div>
+        <div class="p-dessert__dropdown-list" id="dropdownMenu">
+          <div class="p-dessert__dropdown-option selected" id="dropdown-option" data-value="all">全部甜點</div>
+          <div class="p-dessert__dropdown-option" id="dropdown-option" data-value="limited">期間限定</div>
+          <div class="p-dessert__dropdown-option" id="dropdown-option" data-value="cake">蛋糕</div>
+          <div class="p-dessert__dropdown-option" id="dropdown-option" data-value="cookie">餅乾</div>
+          <div class="p-dessert__dropdown-option" id="dropdown-option" data-value="pie">派</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-dessert-cards">
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_01-CZPa6RKj.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">抹茶雲端Matcha Cloud Cake</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">560</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_02-DBtm8dJP.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">深夜可可Midnight Cocoa</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">450</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_03-BCPvODpr.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">夏日檸光Lemon Light</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">480</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_04-Cn-hwwa3.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">伯爵奶香Earl Grey Cream</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">460</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_05-BRZRyw0W.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">香草晨霧Vanilla Morning Mist</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">650</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_06-DfqOxT1K.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">覆盆莓月夜Berry Moonlight</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">570</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_07-DeozOMjR.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">太妃糖布朗尼Toffee Brownie Bite</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">560</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_08-Cfq2-5jB.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">海鹽焦糖乳酪Sea Salt Caramel Cheesecake</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">570</span>
+            </div>
+          </div>
+          
+        </a>
+         <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_09-BjqyDtjJ.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">蜂蜜柚香Honey Yuzu Bloom</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">520</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_10-CCxeu3S-.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">玫瑰白巧Rose White Chocolate</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">600</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_11-mgw5UdX-.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">椰香星河Coconut Galaxy</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">540</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_12-CLBlV_9y.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">芒果曙光Mango Sunrise</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">490</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_13-BpFhdP2a.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">榛果金秋Hazelnut Autumn Delight</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">570</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_14-DMI603mI.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">藍莓仲夏Blueberry Midsummer</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">530</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_15-Cxdc1VW4.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">桂花蜜茶Osmanthus Honey Tea Cake</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">500</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      <div class="p-dessert__card">
+        <span class="--tag">新商品</span>
+        <a href="" class="p-dessert__card-link">
+          <div class="p-dessert__card-pic-box"><img class="p-dessert__card-pic" src="/sucre_memoir/assets/dessert_16-CbjOyDV9.png" alt=""></div>
+          <div class="p-dessert__card-text">
+            <span class="p-dessert__card-name">黑芝麻雪峰Black Sesame Snow Peak</span>
+            <div class="p-dessert__card-price">
+              <span class="--currency">NT$</span>
+              <span class="--num">550</span>
+            </div>
+          </div>
+          
+        </a>
+        <button class="p-dessert__add-btn" data-cart=""><span class="--img"><img src="data:image/svg+xml,%3csvg%20width='20'%20height='24'%20viewBox='0%200%2020%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.1665%206.16671H14.6665V5.00004C14.6665%203.76236%2014.1748%202.57538%2013.2997%201.70021C12.4245%200.825039%2011.2375%200.333374%209.99984%200.333374C8.76216%200.333374%207.57518%200.825039%206.70001%201.70021C5.82484%202.57538%205.33317%203.76236%205.33317%205.00004V6.16671H1.83317C1.52375%206.16671%201.22701%206.28962%201.00821%206.50842C0.78942%206.72721%200.666504%207.02395%200.666504%207.33337V20.1667C0.666504%2021.095%201.03525%2021.9852%201.69163%2022.6416C2.34801%2023.298%203.23825%2023.6667%204.1665%2023.6667H15.8332C16.7614%2023.6667%2017.6517%2023.298%2018.308%2022.6416C18.9644%2021.9852%2019.3332%2021.095%2019.3332%2020.1667V7.33337C19.3332%207.02395%2019.2103%206.72721%2018.9915%206.50842C18.7727%206.28962%2018.4759%206.16671%2018.1665%206.16671ZM7.6665%205.00004C7.6665%204.3812%207.91234%203.78771%208.34992%203.35012C8.78751%202.91254%209.381%202.66671%209.99984%202.66671C10.6187%202.66671%2011.2122%202.91254%2011.6498%203.35012C12.0873%203.78771%2012.3332%204.3812%2012.3332%205.00004V6.16671H7.6665V5.00004ZM16.9998%2020.1667C16.9998%2020.4761%2016.8769%2020.7729%2016.6581%2020.9917C16.4393%2021.2105%2016.1426%2021.3334%2015.8332%2021.3334H4.1665C3.85708%2021.3334%203.56034%2021.2105%203.34155%2020.9917C3.12275%2020.7729%202.99984%2020.4761%202.99984%2020.1667V8.50004H5.33317V9.66671C5.33317%209.97613%205.45609%2010.2729%205.67488%2010.4917C5.89367%2010.7105%206.19042%2010.8334%206.49984%2010.8334C6.80926%2010.8334%207.106%2010.7105%207.3248%2010.4917C7.54359%2010.2729%207.6665%209.97613%207.6665%209.66671V8.50004H12.3332V9.66671C12.3332%209.97613%2012.4561%2010.2729%2012.6749%2010.4917C12.8937%2010.7105%2013.1904%2010.8334%2013.4998%2010.8334C13.8093%2010.8334%2014.106%2010.7105%2014.3248%2010.4917C14.5436%2010.2729%2014.6665%209.97613%2014.6665%209.66671V8.50004H16.9998V20.1667Z'%20fill='%23F9F9F9'/%3e%3c/svg%3e" alt="加入購物車"></span><span>加入購物車</span></button>  
+      </div>
+      
+     
+
+    </div>
+
+
+    <div class="p-dessert__page-btn mt-40px">
+      <a class="--arrow --left" href="#"><img src="data:image/svg+xml,%3csvg%20width='8'%20height='12'%20viewBox='0%200%208%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.41%201.41L6%200L0%206L6%2012L7.41%2010.59L2.83%206L7.41%201.41Z'%20fill='%23333333'/%3e%3c/svg%3e" alt=""></a>
+      <a class="--number active" href="#">1</a>
+      <a class="--number" href="#">2</a>
+      <a class="--number" href="#">3</a>
+      <a class="--arrow --right" href="#"><img src="data:image/svg+xml,%3csvg%20width='8'%20height='12'%20viewBox='0%200%208%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.99984%200L0.589844%201.41L5.16984%206L0.589844%2010.59L1.99984%2012L7.99984%206L1.99984%200Z'%20fill='%23333333'/%3e%3c/svg%3e" alt=""></a>
+  </div>
+  
+</main>
+
+
+  <footer class="l-footer pt-52px pb-60px">
+  <div class="l-footer__container">
+    <nav class="l-footer__nav mb-60px">
+
+      <ul class="l-footer__nav-left">
+        <li class="l-footer__logo "><img src="/sucre_memoir/assets/LOGO%201-BW_bELAv.svg" alt=""></li>
+        <li class=""><a class="l-footer__link" href="#"><span class="--zh">甜點專區</span></a></li>
+        <li><a class="l-footer__link" href="#"><span class="--zh">關於我們</span></a></li>
+      </ul>
+
+      <div class="l-footer__contact">
+        <a class="l-footer__link d-inline-flex" href="#"><span class="--zh d-inline-block me-16px sm-me-0px">聯絡我們</span>
+          <span class="l-footer__tel-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAgCAYAAACRpmGNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARxSURBVHgBrVi9bhtHEJ5ZCfGpo6tEjoWcgTSpRNkJQqfR+Qkkd+4sdkll+QlEV0GqUF060WUqM106bYAAkpBAPD2BzoASu2QqUYB4m2/mjjT/7oekB5D2yNud+Xbmm9nhMi0pQVCt0LXZI6ZNYlclRxV9wdTFc5eYQ4wX5MVta8PuPLqZFpSg9nVA1D+Qx/KruEUUv7KnYVRqNi0gweOHP5Nz+6kGeAbeIXoLw5F6jk0F4yYZ52OsTilw3CSOD4tAzgUuDeERtAcI4SF51CwKVVCr+qTeZfGyP/Iqwnfw4nmLlgWnwG74mGKOaC2uz8ufFOjeDJAWm63P8mIpcAqsxx0Jnz07f0pLiHqSzT5o8WLk6wgAn0wCNKU0aighHL+kJUUA2JNz8NU9SECp+FB+nFKgPLjg20cvwK9dKCudZWVBirc0oT4APKKy4JIQxElWetSmjywK8M4YwAA2g8H71fzlBhNRDph+m5UACRcNuOP2sGuLQvty3kSR+QD0FHzuwI6UIeGiVev5S93zZHDtmcAke8k1SEMCgD1+QwuIepD5MLUZqO5CcEkBjbC4NfXuxhzMKLBjYZlLvLiZ2sSmcRzmgQu+q1bVzX03VTp0Z4MTYlp8WkBSOtgEoNuRYXWmYeFRH8YZGfpXGE5p6q3CY/1pC47b9qzTooXFvQJ3cfokERnznJaNa75UHhktHY2ZOsztbNKXq5qZAntWOxmEViqFqhNvBbWtY5SNZpLW7oE9CZuZWj6hSJVMinO7UPqclhGDrNeRKsleJescdxXUaedJUbFVfgyza0KYm8rXVHTj6GKC2sOjQRYWyFv9DwesYJEcxM/gMY+c+c/f+NyLrv6NijT4X34a0i0/w+OkQejh7/2NexX8rYGaR/AyThjw6NbcRFfvbK7e++s1Geyf4U8cPN7qTJUE7WAlvPwaPZrN8mRyFkqtK5mh6I7tSedu3hTxsIxopeoGPJFSARDDQ5i0hGgP5jCRL7Nq1/B8HF2bJ0L0wtCiV0S3nMAYRf0NuLJidlFCdsa9yfW8prC0Bxml5iS75YLX9jBsi9fk81jyS03DiwZcv6UtTRbpJ0Q96LktqXOZk6RzvhPX8zW5g4HXRFaypkVX77sgtIcFID1fFBE5it73on/e/erf/4y1kKotcNfw73j4ARv4ReZkrU8S011g3nCD+V0J91HPJPJum0qKFG7wqkk98HYNCWA7hV2KFn/nqvYsHAt5bpueculSP3ju7iK/GwqB1R6haMeNudt0nTw4Ca7NAX1sYOKxDGAiK0UK/I31r0gKKFMNfPoDXIxoSZFy4q/f+zFpUl3miVTiqHat4SPzm8kfIfOCUuInzUWQB0zNldBJ2hSMXTvItYJ5bU//tuXWy9VFvK09oLbi7hCNxX7RupLgcoushUe7elmTHHva8iAmX+j8WG4HhuevTX/FWSoh5X/xJwAbMLwzYqxYklqHPk3vRizNIYtd5MgxZxBmY3yEalPBjl59yZWFQevj4jZ6lHDREvQ/TTIN6sLJ2LIAAAAASUVORK5CYII=" alt=""></span></a>
+      </div>
+
+    </nav>
+
+    <p class="l-footer__notice mb-16px text-center">訂閱我們獲取最新甜點資訊！</p>
+
+    <form class="email-subscribe rounded-pill d-flex mb-40px" action="#" method="post" aria-label="訂閱電子報">
+      <label for="email" class="visually-hidden">Email</label>
+      <input class="flex-fill rounded-pill" id="email" type="email" name="email" placeholder="輸入 E-mail" required aria-required="true" />
+      <button class="l-footer__btn d-inline-block py-12px sm-py-4px px-40px sm-px-16px rounded-pill" type="submit">訂閱</button>
+    </form>    
+
+    <p class="l-footer__copyright text-center">2025© Sucré Memoir All RIGHTS RESERVED.</p>
+
+  </div>
+</footer>
+</body>
+
+</html>
