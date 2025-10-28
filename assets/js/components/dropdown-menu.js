@@ -1,12 +1,12 @@
 
 console.log("下拉選單 JS 檔已成功載入！");
- const header = document.getElementById('dropdownHeader');
+ const dropdownHeader = document.getElementById('dropdownHeader');
     const menu = document.getElementById('dropdownMenu');
     const arrow = document.getElementById('arrow');
     const selectedText = document.getElementById('selectedText');
     const items = document.querySelectorAll('#dropdown-option');
 
-    header.addEventListener('click', () => {
+    dropdownHeader.addEventListener('click', () => {
       menu.classList.toggle('open');
       arrow.classList.toggle('open');
     });
