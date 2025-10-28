@@ -41,8 +41,14 @@ a {
 /*----------------------------------------
   6. 圖片、媒體元素自適應
 ----------------------------------------*/
-img, picture, video, canvas, svg {
+
+picture, video, canvas, svg {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+img{
+  vertical-align: middle;
   max-width: 100%;
   height: auto;
 }
