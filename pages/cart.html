@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>購物車</title>
+    <link rel="stylesheet" href="../assets/scss/pages/_cart-fancy.scss">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+        <div class="cart-container mt-196 mb-96 ml-312 mr-312">
+            <div class="cart-title">
+                <h2>首頁 / <span>購物車</span></h2>
+            </div>
+            <div class="cart-content">
+                <div class="cart-left">
+                    <div class="cart-items">
+                        <div class="cart-header">
+                            <div class="header-item info">商品資訊</div>
+                            <div class="header-item money">價格</div>
+                            <div class="header-item qty">數量</div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="item-info">
+                                <img src="../assets/images/index/Vector.png" alt="抹茶雲端Matcha Cloud Cake">
+                                <p>抹茶雲端Matcha Cloud Cake</p>
+                            </div>
+                            <div class="unit">NT$<b class="price">520</b></div>
+                            <div class="item-qty">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+                        <div class="cart-item">
+                            <div class="item-info">
+                                <img src="../assets/images/index/Vector-1.png" alt="抹茶雲端Matcha Cloud Cake">
+                                <p>深夜可可Midnight Cocoa</p>
+                            </div>
+                            <div class="unit">NT$<b class="price">520</b></div>
+                            <div class="item-qty">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="cart-shipping">
+                        <h3>配送方式</h3>
+
+                        <div class="shipping-methods">
+                            <label class="shipping-option">
+                                <input type="radio" name="shipping" checked>
+                                <span>宅配到府</span>
+                                <span class="unit">NT$<b class="price">120</b></span>
+                            </label>
+
+                            <label class="shipping-option">
+                                <input type="radio" name="shipping">
+                                <span>門市自取</span>
+                                <span class="unit">NT$<b class="price">0</b></span>
+                            </label>
+                        </div>
+
+                        <div class="return-link">
+                            <i class="bi bi-arrow-left"></i> 返回購物
+                        </div>
+                    </div>
+                </div>
+                <!-- 右側：結帳區塊 -->
+                <div class="cart-summary">
+                    <div class="summary-item mb-12">
+                        <span>商品合計</span>
+                        <span>NT$1,040</span>
+                    </div>
+                    <div class="summary-item mb-20">
+                        <span>運費</span>
+                        <span>NT$120</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>總計</span>
+                        <span>NT$1,160</span>
+                    </div>
+
+                    <div class="coupon">
+                        <input type="text" placeholder="輸入優惠碼">
+                        <button>新增</button>
+                    </div>
+
+                    <button class="checkout-btn">結帳</button>
+
+                    <div class="login-link">註冊 / 登入</div>
+                </div>
+            </div>
+        </div>
+        <%- include('./layout/footer'); -%>
+            <script type="module" src="../main.js"></script>
+            <script type="module" src="../assets/js/components/swiper.js"></script>
+            <script type="module" src="../assets/js/components/section2.js"></script>
+</body>
+
+</html>
