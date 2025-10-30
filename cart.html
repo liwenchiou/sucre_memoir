@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>購物車</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script type="module" crossorigin src="/sucre_memoir/assets/main-FCBl8lin.js"></script>
+  <script type="module" crossorigin src="/sucre_memoir/assets/section2-DiXtq2r1.js"></script>
+  <link rel="stylesheet" crossorigin href="/sucre_memoir/assets/main-DZ9i8yzi.css">
+  <link rel="stylesheet" crossorigin href="/sucre_memoir/assets/cart-6v0HNfi7.css">
+</head>
+
+<body>
+    <header class="l-header py-4px">
+  <div class="l-header__container">
+    <nav class="l-header__nav d-flex justify-content-between align-items-center">
+      <ul class="d-flex">
+        <li class="me-64px md-me-32px"><a class="l-header__link" href="desserts.html"><span class="--zh">甜點專區</span><span class="--en">DESSERTS</span></a></li>
+        <li><a class="l-header__link" href="#"><span class="--zh">關於我們</span><span class="--en">ABOUT</span></a></li>
+      </ul>
+
+      <a href="index.html"><h1 class="l-header__logo"><img src="/sucre_memoir/assets/LOGO%201-B0gYPi-i.svg" alt=""></h1></a>
+      
+
+      <div class="d-flex align-items-center">
+
+        <a class="d-inline-block me-32px l-header__link" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGlSURBVHgB7VTdbcJADL4L4j0jXCdoikDirWECGKEbQCeATNCyQbtBmSA8IgFqNmhGQIgn8tfPwZEgTe6iqrxUfNJx5uLzZ/tsC3GDAVL3sdvtutiGaZqOpJSKjwNa7XbbW61WofgNgeu69n6/n8LoRHtZytc4jr0gCHZ1OlaV8cPh4LPxHXYPa7DdbiUty7IecP5OulmWTVqtlu84jl3rRPmg0+m8sPEwSZIBvAurLsKoIuMQFUWy2WyejQT9fl9FUfRFMozf1RkvkXxCtClKkCzLOhcpgvEpi28m4wTSgeE5yUjXqErnggDKTn5oWXPRHEveh0YCeJETrNfrQDTEWVqUkeAaKBOE9MMN1gi9Xi+PGukNmhAseHdFQ6DLx7QjvWYCePHBymMqWWEA6zyRjLL2jAT8YFRBNkrW15Fwz/j8t7asf3QytT13qFNcprItKoveB2l55G4vRkSI4TeoGn6Vw45JZhDHQg+Klupf1ZFoxzWPghm8vS96RJwqbUHvRSk9n0lVJFqCptCR/Emj0QPT5BWn6NTxeByJa4AiQRFMxL/CN6ecvW8MaiHkAAAAAElFTkSuQmCC" alt=""></a>        
+        <a class="d-inline-block me-32px l-header__link" href="../pages/cart.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEJSURBVHgB7ZUxDoIwFIYfKomjrky4OWJYOIZH0c1NVyfjCQw38AiOLERuABNzd0LwLylJUzQtqIOGL3nw+tq+vw9oIfp1LJNBQRC4RVFc4HqwGexq2/Y2iqJMN1crIJLfRWIZBpGVTmREGpD8JJKHZVnOYQvu85ioit4SAGt+QeJDkiQMlsHfiD7vEwI1PLHkM+HOdPNa78D3/RQ3l/qRxXG8kAPPKnCpP64amLwaiZXU1aGiSm43qPGmbSwgkXWMdxNQn6kurmL8FfVlEBgEviNQH2T8P0CGSGOZ2tfaaJZlnauq2uOsT7H9yQSMbdxQ7RurgTzPb47jzOEuYVMyg2FhR+zuHf0dD3LfZXZRXrTIAAAAAElFTkSuQmCC" alt=""></a>
+
+        <div><a class="l-header__btn d-inline-block py-12px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+<!--sp-->
+<div class="l-header-sp-fixed">
+  <div class="l-header-sp">
+
+    <div class="l-header-sp__bar py-8px px-12px">
+      <nav class="l-header-sp__bar-nav d-flex align-items-center">
+        <a href="index.html"><h1 class="l-header-sp__bar-logo"><img src="/sucre_memoir/assets/LOGO%201-B0gYPi-i.svg" alt=""></h1></a>
+      </nav>
+    </div>  
+
+
+    <div class="l-header-sp-menu js-menu ">
+      <div class="l-header-sp__search-bar-box pt-16px">
+        <form class="l-header-sp__search-bar rounded-pill d-flex mb-40px" action="/search" method="get">
+          <label for="q" class="visually-hidden">搜尋商品</label>
+          <input id="q" name="q" class="flex-fill rounded-pill" type="search" placeholder="搜尋商品..." required/>
+          <button  class="d-inline-block py-8px  pe-20px  rounded-pill" type="submit">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGlSURBVHgB7VTdbcJADL4L4j0jXCdoikDirWECGKEbQCeATNCyQbtBmSA8IgFqNmhGQIgn8tfPwZEgTe6iqrxUfNJx5uLzZ/tsC3GDAVL3sdvtutiGaZqOpJSKjwNa7XbbW61WofgNgeu69n6/n8LoRHtZytc4jr0gCHZ1OlaV8cPh4LPxHXYPa7DdbiUty7IecP5OulmWTVqtlu84jl3rRPmg0+m8sPEwSZIBvAurLsKoIuMQFUWy2WyejQT9fl9FUfRFMozf1RkvkXxCtClKkCzLOhcpgvEpi28m4wTSgeE5yUjXqErnggDKTn5oWXPRHEveh0YCeJETrNfrQDTEWVqUkeAaKBOE9MMN1gi9Xi+PGukNmhAseHdFQ6DLx7QjvWYCePHBymMqWWEA6zyRjLL2jAT8YFRBNkrW15Fwz/j8t7asf3QytT13qFNcprItKoveB2l55G4vRkSI4TeoGn6Vw45JZhDHQg+Klupf1ZFoxzWPghm8vS96RJwqbUHvRSk9n0lVJFqCptCR/Emj0QPT5BWn6NTxeByJa4AiQRFMxL/CN6ecvW8MaiHkAAAAAElFTkSuQmCC" alt="">
+          </button>
+        </form>
+      </div>
+    
+      <ul class="">
+        <li class="mb-16px">
+          <a class="l-header-sp__link" href="desserts.html">
+            <span class="--zh">甜點專區</span><span class="--en">DESSERTS</span>
+          </a>
+        </li>
+        <li class="mb-70px">
+          <a class="l-header-sp__link" href="#">
+            <span class="--zh">關於我們</span><span class="--en">ABOUT</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="text-center pb-64px"><a class="l-header-sp__btn d-inline-block py-6px px-32px rounded-pill" href="#">註冊 / 登入</a></div>
+    
+    </div>
+    
+
+    <button class="l-header-ham-lines js-hamburger">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+</div>        <div class="cart-container mt-196 mb-96 ml-312 mr-312">
+            <div class="cart-title">
+                <h2>首頁 / <span>購物車</span></h2>
+            </div>
+            <div class="cart-content">
+                <div class="cart-left">
+                    <div class="cart-items">
+                        <div class="cart-header">
+                            <div class="header-item info">商品資訊</div>
+                            <div class="header-item money">價格</div>
+                            <div class="header-item qty">數量</div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="item-info">
+                                <img src="/sucre_memoir/assets/Vector-B_2UFGNB.png" alt="抹茶雲端Matcha Cloud Cake">
+                                <p>抹茶雲端Matcha Cloud Cake</p>
+                            </div>
+                            <div class="unit">NT$<b class="price">520</b></div>
+                            <div class="item-qty">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+                        <div class="cart-item">
+                            <div class="item-info">
+                                <img src="/sucre_memoir/assets/Vector-1-_pST-Az6.png" alt="抹茶雲端Matcha Cloud Cake">
+                                <p>深夜可可Midnight Cocoa</p>
+                            </div>
+                            <div class="unit">NT$<b class="price">520</b></div>
+                            <div class="item-qty">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="cart-shipping">
+                        <h3>配送方式</h3>
+
+                        <div class="shipping-methods">
+                            <label class="shipping-option">
+                                <input type="radio" name="shipping" checked>
+                                <span>宅配到府</span>
+                                <span class="unit">NT$<b class="price">120</b></span>
+                            </label>
+
+                            <label class="shipping-option">
+                                <input type="radio" name="shipping">
+                                <span>門市自取</span>
+                                <span class="unit">NT$<b class="price">0</b></span>
+                            </label>
+                        </div>
+
+                        <div class="return-link">
+                            <i class="bi bi-arrow-left"></i> 返回購物
+                        </div>
+                    </div>
+                </div>
+                <!-- 右側：結帳區塊 -->
+                <div class="cart-summary">
+                    <div class="summary-item mb-12">
+                        <span>商品合計</span>
+                        <span>NT$1,040</span>
+                    </div>
+                    <div class="summary-item mb-20">
+                        <span>運費</span>
+                        <span>NT$120</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>總計</span>
+                        <span>NT$1,160</span>
+                    </div>
+
+                    <div class="coupon">
+                        <input type="text" placeholder="輸入優惠碼">
+                        <button>新增</button>
+                    </div>
+
+                    <button class="checkout-btn">結帳</button>
+
+                    <div class="login-link">註冊 / 登入</div>
+                </div>
+            </div>
+        </div>
+        <footer class="l-footer pt-52px pb-60px">
+  <div class="l-footer__container">
+    <nav class="l-footer__nav mb-60px">
+
+      <ul class="l-footer__nav-left">
+        <li class="l-footer__logo "><img src="/sucre_memoir/assets/LOGO%201-B0gYPi-i.svg" alt=""></li>
+        <li class=""><a class="l-footer__link" href="#"><span class="--zh">甜點專區</span></a></li>
+        <li><a class="l-footer__link" href="#"><span class="--zh">關於我們</span></a></li>
+      </ul>
+
+      <div class="l-footer__contact">
+        <a class="l-footer__link d-inline-flex" href="#"><span class="--zh d-inline-block me-16px sm-me-0px">聯絡我們</span>
+          <span class="l-footer__tel-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAgCAYAAACRpmGNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARxSURBVHgBrVi9bhtHEJ5ZCfGpo6tEjoWcgTSpRNkJQqfR+Qkkd+4sdkll+QlEV0GqUF060WUqM106bYAAkpBAPD2BzoASu2QqUYB4m2/mjjT/7oekB5D2yNud+Xbmm9nhMi0pQVCt0LXZI6ZNYlclRxV9wdTFc5eYQ4wX5MVta8PuPLqZFpSg9nVA1D+Qx/KruEUUv7KnYVRqNi0gweOHP5Nz+6kGeAbeIXoLw5F6jk0F4yYZ52OsTilw3CSOD4tAzgUuDeERtAcI4SF51CwKVVCr+qTeZfGyP/Iqwnfw4nmLlgWnwG74mGKOaC2uz8ufFOjeDJAWm63P8mIpcAqsxx0Jnz07f0pLiHqSzT5o8WLk6wgAn0wCNKU0aighHL+kJUUA2JNz8NU9SECp+FB+nFKgPLjg20cvwK9dKCudZWVBirc0oT4APKKy4JIQxElWetSmjywK8M4YwAA2g8H71fzlBhNRDph+m5UACRcNuOP2sGuLQvty3kSR+QD0FHzuwI6UIeGiVev5S93zZHDtmcAke8k1SEMCgD1+QwuIepD5MLUZqO5CcEkBjbC4NfXuxhzMKLBjYZlLvLiZ2sSmcRzmgQu+q1bVzX03VTp0Z4MTYlp8WkBSOtgEoNuRYXWmYeFRH8YZGfpXGE5p6q3CY/1pC47b9qzTooXFvQJ3cfokERnznJaNa75UHhktHY2ZOsztbNKXq5qZAntWOxmEViqFqhNvBbWtY5SNZpLW7oE9CZuZWj6hSJVMinO7UPqclhGDrNeRKsleJescdxXUaedJUbFVfgyza0KYm8rXVHTj6GKC2sOjQRYWyFv9DwesYJEcxM/gMY+c+c/f+NyLrv6NijT4X34a0i0/w+OkQejh7/2NexX8rYGaR/AyThjw6NbcRFfvbK7e++s1Geyf4U8cPN7qTJUE7WAlvPwaPZrN8mRyFkqtK5mh6I7tSedu3hTxsIxopeoGPJFSARDDQ5i0hGgP5jCRL7Nq1/B8HF2bJ0L0wtCiV0S3nMAYRf0NuLJidlFCdsa9yfW8prC0Bxml5iS75YLX9jBsi9fk81jyS03DiwZcv6UtTRbpJ0Q96LktqXOZk6RzvhPX8zW5g4HXRFaypkVX77sgtIcFID1fFBE5it73on/e/erf/4y1kKotcNfw73j4ARv4ReZkrU8S011g3nCD+V0J91HPJPJum0qKFG7wqkk98HYNCWA7hV2KFn/nqvYsHAt5bpueculSP3ju7iK/GwqB1R6haMeNudt0nTw4Ca7NAX1sYOKxDGAiK0UK/I31r0gKKFMNfPoDXIxoSZFy4q/f+zFpUl3miVTiqHat4SPzm8kfIfOCUuInzUWQB0zNldBJ2hSMXTvItYJ5bU//tuXWy9VFvK09oLbi7hCNxX7RupLgcoushUe7elmTHHva8iAmX+j8WG4HhuevTX/FWSoh5X/xJwAbMLwzYqxYklqHPk3vRizNIYtd5MgxZxBmY3yEalPBjl59yZWFQevj4jZ6lHDREvQ/TTIN6sLJ2LIAAAAASUVORK5CYII=" alt=""></span></a>
+      </div>
+
+    </nav>
+
+    <p class="l-footer__notice mb-16px text-center">訂閱我們獲取最新甜點資訊！</p>
+
+    <form class="email-subscribe rounded-pill d-flex mb-40px" action="#" method="post" aria-label="訂閱電子報">
+      <label for="email" class="visually-hidden">Email</label>
+      <input class="flex-fill rounded-pill" id="email" type="email" name="email" placeholder="輸入 E-mail" required aria-required="true" />
+      <button class="l-footer__btn d-inline-block py-12px sm-py-4px px-40px sm-px-16px rounded-pill" type="submit">訂閱</button>
+    </form>    
+
+    <p class="l-footer__copyright text-center">2025© Sucré Memoir All RIGHTS RESERVED.</p>
+
+  </div>
+</footer>            
+</body>
+
+</html>
